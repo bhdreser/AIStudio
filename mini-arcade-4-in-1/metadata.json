@@ -1,0 +1,6 @@
+{
+  "name": "Mini Arcade 4-in-1",
+  "description": "4 hypercasual mini-games: Block Blast, Slice It All, Pizza Ready, and Fun Race 3D in one integrated engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
