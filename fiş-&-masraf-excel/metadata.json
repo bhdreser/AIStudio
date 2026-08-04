@@ -1,6 +1,0 @@
-{
-  "name": "Fiş & Masraf Excel",
-  "description": "Fiş ve fatura fotoğraflarından AI ile masraf kalemlerini çıkarıp Excel/CSV listesi olarak dışa aktarır.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
