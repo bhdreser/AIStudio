@@ -1,0 +1,6 @@
+{
+  "name": "What's this?",
+  "description": "Point. Ask. Understand. Visual AI discovery app for identifying objects, text, insects, plants, and more.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

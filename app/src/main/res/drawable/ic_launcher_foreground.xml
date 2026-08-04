@@ -1,0 +1,90 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- === AI CAMERA FOCUS RING BACKDROP (Strictly inside 66dp Safe Circle) === -->
+    <path
+        android:pathData="M 54,27 A 27,27 0 1,1 53.99,27 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#30818CF8"
+        android:fillColor="#00000000" />
+    
+    <!-- === 3D GOLD QUESTION MARK (Scaled & Compacted for Launcher Safe Zone) === -->
+    
+    <!-- 1. Deep Shadow Offset (+2, +2) -->
+    <path
+        android:fillColor="#090514"
+        android:pathData="M 44,31 C 49,31 53,34 53,38 C 53,42 50,44 46,46 C 44,48 42,50 42,53 L 42,55 L 48,55 L 48,53 C 48,52 50,50 52,48 C 56,46 59,42 59,38 C 59,30 52,26 44,26 C 35,26 30,31 30,38 L 36,38 C 36,34 39,31 44,31 Z M 42,59 L 48,59 L 48,65 L 42,65 Z" />
+
+    <!-- 2. 3D Extrusion Side Wall (Dark Amber Gold #B45309) -->
+    <path
+        android:fillColor="#B45309"
+        android:pathData="M 43,30 C 48,30 52,33 52,37 C 52,41 49,43 45,45 C 43,47 41,49 41,52 L 41,54 L 47,54 L 47,52 C 47,51 49,49 51,47 C 55,45 58,41 58,37 C 58,29 51,25 43,25 C 34,25 29,30 29,37 L 35,37 C 35,33 38,30 43,30 Z M 41,58 L 47,58 L 47,64 L 41,64 Z" />
+
+    <!-- 3. 3D Main Front Face with Bright Gold Gradient -->
+    <path
+        android:pathData="M 42,29 C 47,29 51,32 51,36 C 51,40 48,42 44,44 C 42,46 40,48 40,51 L 40,53 L 46,53 L 46,51 C 46,50 48,48 50,46 C 54,44 57,40 57,36 C 57,28 50,24 42,24 C 33,24 28,29 28,36 L 34,36 C 34,32 37,29 42,29 Z M 40,57 L 46,57 L 46,63 L 40,63 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="24"
+                android:endX="51"
+                android:endY="63"
+                android:type="linear">
+                <item android:color="#FDE047" android:offset="0.0" />
+                <item android:color="#F59E0B" android:offset="0.7" />
+                <item android:color="#D97706" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 4. Top Specular Glint Highlight -->
+    <path
+        android:fillColor="#FEF9C3"
+        android:pathData="M 42,29 C 45,29 49,31 51,33 C 49,31 45,30 42,30 C 37,30 34,32 33,35 L 31,35 C 32,31 36,29 42,29 Z M 40,57 L 46,57 L 46,59 L 40,59 Z" />
+
+
+    <!-- === 3D VIBRANT EMERALD GREEN TICK CHECKMARK (Safe Zone Compact) === -->
+
+    <!-- 1. Deep Shadow Offset (+2, +2) -->
+    <path
+        android:fillColor="#021E17"
+        android:pathData="M 48,58 L 57,67 L 74,49 L 78,52 L 57,73 L 44,61 Z" />
+
+    <!-- 2. 3D Side Extrusion Wall (Dark Emerald #047857) -->
+    <path
+        android:fillColor="#047857"
+        android:pathData="M 47,57 L 56,66 L 73,48 L 77,51 L 56,72 L 43,60 Z" />
+
+    <!-- 3. 3D Main Front Face with Emerald Gradient -->
+    <path
+        android:pathData="M 46,56 L 55,65 L 72,47 L 76,50 L 55,71 L 42,59 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="47"
+                android:endX="76"
+                android:endY="71"
+                android:type="linear">
+                <item android:color="#6EE7B7" android:offset="0.0" />
+                <item android:color="#10B981" android:offset="0.6" />
+                <item android:color="#059669" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 4. Top Specular Glint Highlight -->
+    <path
+        android:fillColor="#D1FAE5"
+        android:pathData="M 46,56 L 55,65 L 72,47 L 74,49 L 55,67 L 44,56 Z" />
+
+    <!-- Sparkle AI Star Accent -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 68,26 L 69.2,29 L 72.5,30.2 L 69.2,31.4 L 68,34.5 L 66.8,31.4 L 63.5,30.2 L 66.8,29 Z" />
+
+</vector>
+
