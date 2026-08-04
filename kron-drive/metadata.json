@@ -1,6 +1,0 @@
-{
-  "name": "Kron Drive",
-  "description": "Kron Drive - High-speed Street Racing & Dodge Game with vehicles, upgrades, and HUD",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
